@@ -1,0 +1,13 @@
+Table 1
+Type    Matches     Runs        Avg
+Test    200         15921       53.78
+ODI     463         18426       44.83
+
+
+Table 2
+                        Centuries
+Class               Type of Match           Numer of Centuries
+                        Test                     51
+International           ODI                      49
+First Class             Test                     81
+

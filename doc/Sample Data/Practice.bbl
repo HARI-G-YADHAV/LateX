@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{sachin1}
+S.~Tendulkar and B.~Majumdar, {\em Sachin Tendulkar Playing It My Way}.
+\newblock Hodder \& Stoughton, 2014.
+
+\bibitem{latex}
+L.~Lamport, {\em Latex A Document Preparation System}.
+\newblock Pearson Education, 2014.
+
+\bibitem{sachinwiki}
+{Wikipedia contributors}, ``Sachin tendulkar.''
+  \url{https://en.wikipedia.org/w/index.php?title=Sachin_Tendulkar&oldid=887884046},
+  2019.
+\newblock [Online; accessed 20-March-2019].
+
+\end{thebibliography}

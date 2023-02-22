@@ -1,0 +1,22 @@
+\contentsline {chapter}{\numberline {1}Sachin Tendulkar}{4}
+\contentsline {section}{\numberline {1.1}Introduction}{4}
+\contentsline {section}{\numberline {1.2}Statistics}{6}
+\contentsline {subsection}{\numberline {1.2.1}Batting Stats}{6}
+\contentsline {subsection}{\numberline {1.2.2}Centuries}{6}
+\contentsline {section}{\numberline {1.3}Achievements}{6}
+\contentsline {subsection}{\numberline {1.3.1}National Awards}{6}
+\contentsline {subsection}{\numberline {1.3.2}Awards for individual matches and series}{6}
+\contentsline {subsection}{\numberline {1.3.3}Year wise Details}{7}
+\contentsline {chapter}{\numberline {2}Equations}{8}
+\contentsline {section}{\numberline {2.1}Inline Equations}{8}
+\contentsline {section}{\numberline {2.2}Equations without Numbering}{8}
+\contentsline {section}{\numberline {2.3}Equations with Numbering}{8}
+\contentsline {section}{\numberline {2.4}Fractions and Binomials}{8}
+\contentsline {section}{\numberline {2.5}Square Roots}{9}
+\contentsline {section}{\numberline {2.6}Sums and Integrals}{9}
+\contentsline {section}{\numberline {2.7}Runtime of an Algorithm}{9}
+\contentsline {chapter}{\numberline {3}C Programming}{10}
+\contentsline {section}{\numberline {3.1}Algorithms}{10}
+\contentsline {section}{\numberline {3.2}Hello World!}{10}
+\contentsline {chapter}{\numberline {4}More on Sachin}{11}
+\contentsline {section}{\numberline {4.1}Eearly Years}{11}

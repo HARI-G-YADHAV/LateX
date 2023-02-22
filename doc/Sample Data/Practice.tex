@@ -1,0 +1,215 @@
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{url}
+\lstset{upquote=true}
+\begin{document}
+	
+	\title{LaTeX Practice}
+	\author{Mithun AV}
+	\date{\today}
+	\maketitle
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	
+	\chapter{Sachin Tendulkar}
+	
+	\section{Introduction}
+	Sachin Ramesh Tendulkar (born 24\textsuperscript{th} April 1973) is a former Indian international cricketer and a former captain of the Indian national team, regarded as one of the greatest batsman of all time \cite{sachin1}. He is the highest run scorer of all time in International cricket. Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years. He is the only player to have scored one hundred international centuries, the first batsman to score a double century in a ODI, the holder of the record for the most number of runs in both Test and ODI, and the only player to complete more than 30,000 runs in international cricket. He is colloquially known as Little Master or Master Blaster, and often referred to as the God of Cricket by Indian cricket followers. In 2001, Sachin Tendulkar became the first batsman to complete 10,000 ODI runs in his 259 innings. In 2002, halfway through his career, Wisden Cricketers' Almanack ranked him the second greatest Test batsman of all time, behind Don Bradman, and the second greatest ODI batsman of all time, behind Viv Richards. Later in his career, Tendulkar was a part of the Indian team that won the 2011 World Cup, his first win in six World Cup appearances for India. He had previously been named Player of the Tournament at the 2003 edition of the tournament, held in South Africa. In 2013, he was the only Indian cricketer included in an all-time Test World XI named to mark the 150th anniversary of Wisden Cricketers' Almanack.
+	
+	Tendulkar received the Arjuna Award in 1994 for his outstanding sporting achievement, the Rajiv Gandhi Khel Ratna award in 1997, India's highest sporting honour, and the Padma Shri and Padma Vibhushan awards in 1999 and 2008, respectively, India's fourth and second highest civilian awards. After a few hours of his final match on 16 November 2013, the Prime Minister's Office announced the decision to award him the \textbf{Bharat Ratna}, India's highest civilian award. He is the youngest recipient to date and the first ever sportsperson to receive the award. He also won the 2010 Sir Garfield Sobers Trophy for cricketer of the year at the ICC awards. In 2012, Tendulkar was nominated to the Rajya Sabha, the upper house of the Parliament of India. He was also the first sportsperson and the first person without an aviation background to be awarded the honorary rank of group captain by the Indian Air Force. In 2012, he was named an Honorary Member of the Order of Australia.
+		\begin{figure}[h]
+		\begin{center}
+			\includegraphics[scale=0.2]{Sachin-01.jpg}
+		\end{center}		
+		\caption{Sachin Ramesh Tendulkar}
+		\label{sachinintro}
+	\end{figure}
+	 In December 2012, Tendulkar announced his retirement from ODIs.[29] He retired from Twenty20 cricket in October 2013 and subsequently retired from all forms of cricket on 16 November 2013 after playing his 200th Test match, against the West Indies in Mumbai's Wankhede Stadium. Tendulkar played 664 international cricket matches in total, scoring 34,357 runs. See figures \ref{sachinintro} and \ref{sachinonfield}.
+	
+
+		\begin{figure}[h]
+		\centering
+		\begin{subfigure}[t]{0.4\textwidth}
+			\includegraphics[width=\textwidth]{Sachin-03}
+			\caption{Tendulkar at the crease}
+		\end{subfigure}	~
+		\begin{subfigure}[t]{0.4\textwidth}
+			\includegraphics[width=\textwidth]{Sachin-04}
+			\caption{Tendulkar plays a wristy legside flick}
+		\end{subfigure}
+		\caption{Sachin on field}
+		\label{sachinonfield}
+		\end{figure}
+
+	\vspace{0.4cm}
+	``\textit{It seems while Time was having his toll on every individual on the face of this planet, he excused one man. Time stands frozen in front of Sachin Tendulkar. We have had champions, we have had legends, but we have never had another Sachin Tendulkar and we never will.}''
+	
+	\hfill Time Magazine
+	
+	\section{Statistics}
+	Some statistics are shown in tables \ref{batstat}.
+	\subsection{Batting Stats}
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{|l|c|c|c|}
+				\hline
+				\textbf{Type}&\textbf{Matches}&\textbf{Runs}&\textbf{Avg}\\
+				\hline
+				Test&200&15921&53.78\\
+				\hline
+				ODI&463&18426&44.83\\
+				\hline
+			\end{tabular}
+		\end{center}
+		\caption{Batting Stats for Sachin Tendulkar}
+		\label{batstat}
+	\end{table}
+
+	\subsection{Centuries}
+	\begin{table}[h]
+		\begin{center}
+			\begin{tabular}{l|c|c}
+				\hline
+				\multicolumn{3}{c}{\textbf{Centuries}}\\
+				\hline
+				\textbf{Class} & \textbf{Type of Match} &\textbf{ Number of Centuries} \\
+				\hline
+				\hline
+				\multirow{2}{*}{International} & Test & 51\\
+				\cline{2-3}
+				& ODI & 49\\
+				\hline
+				First Class & Test & 81\\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	\section{Achievements}
+	\subsection{National Awards}
+	\begin{itemize}
+		\item Arjuna Award
+		\item Padma Shri 
+		\item Padma Vibhushan
+		\item Bharat Ratna 
+	\end{itemize}
+
+	\subsection{Awards for individual matches and series}
+	\begin{enumerate}
+		\item Man of the Match Awards
+		\begin{enumerate}
+			\item Against England in 1990 at Manchester
+			\item Against England in 1992 at Chennai
+			\item Against New Zealand in 1995 at Chennai
+		\end{enumerate}
+		\item Man of the Series Awards
+			\begin{enumerate}
+				\item Border-Gavaskar Trophy  in 1997/98
+				\item England in India Test Series 2001/02
+			\end{enumerate}
+	\end{enumerate}
+	\subsection{Year wise Details}
+	\begin{description}
+		\item[1994] Arjuna Award
+		\item[1999] Padma Shri 
+		\item[2008] Padma Vibhushan
+		\item[2014] Bharat Ratna 
+	\end{description}
+
+\chapter{Equations}
+\section{Inline Equations}
+General form of a quadratic equation is $ax^2+bx+c=0$, where $a$ is the coefficient of $x^2$, $b$ is the coefficient of $x$ and $c$ is a constant \cite{latex}.
+
+An example for using symbols is $\forall x \in X, \quad \exists y \leq \epsilon$
+
+Area of a circle is $\pi r^2$
+\section{Equations without Numbering}
+\begin{displaymath}
+(a+b)^2 = a^2+2ab+b^2
+\end{displaymath}
+
+\section{Equations with Numbering}
+\begin{equation}
+(a+b)^2 = a^2+2ab+b^2
+\end{equation}
+
+\begin{equation}
+(a-b)^2 = a^2-2ab+b^2
+\end{equation}
+
+\section{Fractions and Binomials}
+
+\begin{equation}
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+\label{binomial}
+\end{equation}
+
+\begin{equation}
+p=\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
+\end{equation}
+
+\section{Square Roots}
+\begin{displaymath}
+x=\sqrt{\frac{a}{b}}
+\end{displaymath}
+
+\begin{displaymath}
+p=\sqrt[n]{1+x+x^2+x^3+\ldots}
+\end{displaymath}
+\section{Sums and Integrals}
+\begin{displaymath}
+p=\sum_{i=1}^{10} t_i
+\end{displaymath}
+
+\begin{displaymath}
+q=\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
+\end{displaymath}
+
+\section{Runtime of an Algorithm}
+\begin{displaymath}
+T(n)=\begin{cases}
+1& n=1\\
+2T(n/2)+1 & n < 1\\
+\end{cases}
+\end{displaymath}
+
+Refer equation \ref{binomial}.
+
+\chapter{C Programming}
+\section{Algorithms}
+\begin{lstlisting}
+Step 1: Start
+Step 2: Get 2 numbers a, b
+Step 3. c =  a + b
+Step 4: Print c
+Step 5: Stop
+\end{lstlisting}
+
+\section{Hello World!}
+\begin{lstlisting}
+#include<stdio.h>
+void main()
+{
+    printf("Hello World!");
+}
+\end{lstlisting}
+\chapter{More on Sachin}
+\section{Eearly Years}
+\begin{multicols}{2}
+	Tendulkar was born at Nirmal Nursing Home in Dadar, Bombay on 24 April 1973 to a Maharashtrian Rajapur Saraswat Brahmin family. His father, Ramesh Tendulkar, was a well-known Marathi novelist \& poet and his mother, Rajni, worked in the insurance industry. Ramesh named Tendulkar after his favourite music director, Sachin Dev Burman. Tendulkar has three elder siblings: two half-brothers Nitin and Ajit, and a half-sister Savita. They were Ramesh's children by his first wife, who died after the birth of her third child.
+	
+	Tendulkar spent his formative years in the Sahitya Sahawas Cooperative Housing Society in Bandra (East). As a young boy, Tendulkar was considered a bully, and often picked up fights with new children in his school. He also showed an interest in tennis, idolising John McEnroe. To help curb his mischievous and bullying tendencies, Ajit introduced the young Sachin to cricket in 1984. He introduced him to Ramakant Achrekar, a famous cricket coach and a club cricketer of repute, at Shivaji Park, Dadar. In the first meeting, the young Sachin did not play his best. Ajit told Achrekar that he was feeling self-conscious due to the coach observing him, and was not displaying his natural game. Ajit requested the coach to give him another chance at playing, but watch while hiding behind a tree. This time, Sachin, apparently unobserved, played much better and was accepted at Achrekar's academy.
+	
+	Achrekar was impressed with Tendulkar's talent and advised him to shift his schooling to Sharadashram Vidyamandir (English) High School, a school at Dadar which had a dominant cricket team and had produced many notable cricketers. Prior to this, Tendulkar had attended the Indian Education Society's New English School in Bandra (East). He was also coached under the guidance of Achrekar at Shivaji Park in the mornings and evenings. Tendulkar would practice for hours on end in the nets. If he became exhausted, Achrekar would put a one-rupee coin on the top of the stumps, and the bowler who dismissed Tendulkar would get the coin. If Tendulkar passed the whole session without getting dismissed, the coach would give him the coin. Tendulkar now considers the 13 coins he won then as some of his most prized possessions. He moved in with his aunt and uncle, who lived near Shivaji Park, during this period, due to his hectic schedule \cite{sachinwiki}.
+\end{multicols}
+
+\bibliography{PracticeBib} 
+\bibliographystyle{ieeetr}
+\end{document}
